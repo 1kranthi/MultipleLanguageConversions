@@ -1,0 +1,26 @@
+c language:
+    brew install gcc
+    gcc -o program_name source_file.c
+    ./program_name
+
+c++ language:
+    brew install gcc
+    g++ -std=c++11 -o bit_ops main.cpp bit_ops.cpp
+    ./bit_ops
+
+java:
+    brew install openjdk
+    javac Main.java
+    java Main
+
+javascript:
+    brew install node
+    node main.js
+
+php:
+    brew install php
+    php main.php
+
+python:
+    brew install python
+    python3 main.py
